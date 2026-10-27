@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaijaLogistics | Fast & Secure Delivery Across Nigeria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Naija<span>Logistics</span></div>
+        <ul class="nav-links">
+            <li><a href="#track">Track Item</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#track" class="btn-primary">Track Package</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">⚡ Nationwide Coverage (Abuja, Suleja & Lagos)</span>
+            <h1>Fast, Reliable Delivery for Nigerian Businesses & Individuals</h1>
+            <p>From doorstep pickups to interstate dispatch, we ensure your parcels get delivered safely and on time.</p>
+            
+            <!-- Tracking Widget Box -->
+            <div class="track-box" id="track">
+                <h3>Track Your Shipment</h3>
+                <div class="track-input-group">
+                    <input type="text" id="trackingInput" placeholder="Enter tracking code (e.g. WLB-1001)">
+                    <button id="trackBtn">Track</button>
+                </div>
+                <div id="trackResult" class="track-result hidden">
+                    <p><strong>Status:</strong> <span id="statusText"></span></p>
+                    <p><strong>Destination:</strong> <span id="destText"></span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="section-title">Our Logistics Services</h2>
+        <p class="section-sub">Built to support ecommerce sellers and corporate dispatch needs.</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">📦</div>
+                <h3>Same-Day Dispatch</h3>
+                <p>Quick intra-city deliveries across Suleja, Minna, and Abuja metro areas.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🚚</div>
+                <h3>Interstate Shipping</h3>
+                <p>Secure cargo and package transit connecting Lagos, Abuja, and major states.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏪</div>
+                <h3>SME Fulfillment</h3>
+                <p>Inventory storage, packaging, and automated dispatch for online stores.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div>
+                <h3>NaijaLogistics</h3>
+                <p>Powering commerce and connections across Nigeria.</p>
+            </div>
+            <div>
+                <p>📍 Operations: Suleja & Abuja, Nigeria</p>
+                <p>📞 Phone: 09022613850</p>
+                <p>✉️ Email: support@naijalogistics.ng</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Suleiman Nurain NaijaLogistics — Built with HTML, CSS, JS</p>
+    
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
